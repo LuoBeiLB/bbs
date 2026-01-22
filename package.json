@@ -1,0 +1,23 @@
+{
+  "name": "tech-community-platform",
+  "version": "1.0.0",
+  "description": "A comprehensive tech community platform built with Vue 3, NestJS, and TypeScript",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --parallel build",
+    "test": "pnpm run --parallel test"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
